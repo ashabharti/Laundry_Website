@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+/* style.css */
+nav {
+    background-color: #aeb9ab00; 
+    color: #203f00; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav li a:hover {
+    color: #2db2d4; 
+  }
+  
+  .current-page {
+    font-weight: bold;
+    
+  }
+  
+ 
+  
+  nav li a i {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+    font-family: "Josefin Sans";
+
+    font-size: 20px;
+
+    color: #0d0101;
+    width: 100%; 
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #EEF4F8;
+
+
+}
+a{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    transition: .5s;
+    font-size: 20px;
+}
+
+    ul,li{
+    list-style-type: none;
+ }
+
+ header {
+    display: flex;
+    align-items: center;
+    padding: px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-direction: row;
+}
+
+
+.banner-text h1 {
+
+    font-family: "Chiller";
+
+    font-size: 100px; 
+    margin-bottom: 20px;
+
+    color: #3a3318;
+}
+banner-img{
+background-color: #EEF4F8;
+}
+
+.btn{
+    border-radius: 50px;
+    background-color: #6c950d;
+
+    padding: 10px 30px;
+
+    margin-top: 30px;
+
+    color: #fff;
+}
+
+.btn:hover{
+background-color: #298807;
+}
